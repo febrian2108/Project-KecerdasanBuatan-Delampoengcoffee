@@ -101,11 +101,9 @@ def run_jarvis():
 
     elif category == 'lokasi':
         pyt.speak('Berikut adalah lokasi Delampoeng Coffee.')
-        # Berikan informasi tentang lokasi Delampoeng Coffee menggunakan layanan peta
-        # Dapatkan lokasi Delampoeng Coffee menggunakan API atau sumber lain
-        lokasi = 'lokasi'  # Ganti dengan lokasi yang ingin ditampilkan
-        url = f"https://maps.app.goo.gl/c4oyCA7dfXjTrQ7dA={lokasi}"
+        url = "https://maps.app.goo.gl/c4oyCA7dfXjTrQ7dA"
         webbrowser.open(url)
+
 
     elif category == 'promo':
         pyt.speak('tidak ada promo untuk hari ini dari Delampoeng Coffee, mohon periksa lagi beberapa waktu kedepan.')
