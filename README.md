@@ -1,4 +1,4 @@
-#Project tugas akhir kecerdasan buatan
+# Project tugas akhir kecerdasan buatan
 
 program ini menggunakan bahasa python dengan kata kunci 'cari', 'buka', 'tutup', 'rekomendasi', 'pesan', 'lokasi', 'promo' 
 program ini juga menggunakan algoritma RNNs (Recurrent Neural Network)
